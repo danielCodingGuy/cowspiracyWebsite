@@ -29,7 +29,7 @@ li a{
 
 li a:hover{
     transition: 400ms;
-    background-color: #BB86FC;
+    background-color: #62ae69;
 }
 
 #mid{
@@ -39,6 +39,7 @@ li a:hover{
     display: block;
     background-color: #121212;
     color: white;
+    font-size: 18px;
 }
 
 #left, #right {
@@ -55,9 +56,13 @@ li a:hover{
 
 #title{
     text-align: center;
+    font-family: "orange_kidregular";
+    font-size: 22px;
 }
 #addition{
     text-align: center;
+    font-family: "orange_kidregular";
+    font-size: 20px;
 }
 
 .slideshow-container {
@@ -124,7 +129,7 @@ li a:hover{
 }
   
 .active, .dot:hover {
-    background-color: #BB86FC;
+    background-color: #62ae69;
 }
   
 .fade {
@@ -145,17 +150,17 @@ li a:hover{
 .btn {
     background-color: #121212;
     border: 3px;
-    border-color: #BB86FC;
+    border-color: #62ae69;
     border-radius: 2%;
-    color: #BB86FC;
+    color: #62ae69;
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
-  }
+}
   
 .btn:hover {
     transition: 400ms;
-    background-color: #BB86FC;
+    background-color: #62ae69;
     color: white;
 }
 
@@ -181,4 +186,24 @@ li a:hover{
     .menu, .main, .right {
       width: 100%;
     }
+}
+
+/*gowno z podstron*/
+
+#paypal{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'orange_kidregular';
+    src: url('orangekid/orange_kid-webfont.woff2') format('woff2'),
+         url('orangekid/orange_kid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#authors{
+    text-align: center;
+    font-family: "orange_kidregular";
+    font-size: 18px;
 }
